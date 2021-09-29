@@ -1,8 +1,8 @@
 import pandas as pd
 from matplotlib.pyplot import plot, show
 
-df_train = pd.read_csv('data/b1c3ccf9-0599-4a6d-82e5-8321ff632771.csv')
-df_test = pd.read_csv('data/5fda966e-4e30-4a44-a459-838592c9c665.csv')
+df_train = pd.read_csv('data/train.csv')
+df_test = pd.read_csv('data/test.csv')
 df_train['日期'] = pd.to_datetime(df_train['日期'])
 # df_test['日期'] = pd.to_datetime(df_test['日期'])
 
